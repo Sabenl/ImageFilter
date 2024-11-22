@@ -1,1 +1,2 @@
 exportPattern("^[[:alpha:]]+")
+importFrom(magick, image_read, image_write)
