@@ -49,7 +49,7 @@ print(color_image)
 **Save the final image as a JPEG, change path to the name and location desired.**  
 image_write(color_image, path = "color_image.jpg", format = "jpeg")
   
-**Any color filter, by supplying RGB values (any_color = c(0-255, 0-255, 0-255)). Also change the name and path of the output image if needed.**  
+**Any color filter, by supplying RGB values (any_color = c(0-255, 0-255, 0-255))**  
 any_color_image <- apply_any_color_filter(image_path, any_color = c(255, 0, 255), output_path = "any_color_image.jpg")  
 **View the final image**  
 print(any_color_image)  
