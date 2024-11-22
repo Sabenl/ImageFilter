@@ -15,7 +15,7 @@ Contains:
 
 
 
-# How to run the package and exmaples 
+# How to run the package and examples 
 **Install packages**  
 install.packages("magick")  
 install.packages("ImageFilter") 
@@ -30,6 +30,7 @@ image_path <- "Test_image_1.jpg"
 
 
 
+  
   
 **Apply the chosen filter to your image**  
 
