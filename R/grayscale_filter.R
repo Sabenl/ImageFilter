@@ -1,3 +1,12 @@
+#' Grayscale filter
+#'
+#' Uses a vector_for_filter generated from your image by the apply_grayscale_filter function.
+#' Generates a raw grayscale vector that will be processed into an image by the apply_grayscale_filter_function.
+#' this function is built into another function. No need to use by itself.
+#'
+
+
+
 # Filter to convert the image to grey scale
 grayscale_filter <- function(vector_for_filter) {
   # Process the vector in groups of three (R, G, B), for each color

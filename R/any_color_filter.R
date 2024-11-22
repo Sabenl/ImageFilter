@@ -1,3 +1,10 @@
+#' any color filter
+#'
+#' Uses a vector_for_filter generated from your image by the apply_any_color_filter function.
+#' Generates a raw color vector that will be processed into an image by the apply_any_color_filter function.
+#' this function is built into another function. No need to use by itself.
+#'
+
 # Filter to convert the image to any color by supplying RGB values
 any_color_filter <- function(vector_for_filter, any_color = c(155, 0, 155), blend_factor = 0.5) {
   # Apply the chosen color values with blending (blending to not make every pixel the same color)

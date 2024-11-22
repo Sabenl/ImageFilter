@@ -1,3 +1,15 @@
+#' Applies the any color filter
+#'
+#' Loads the image from your directory and converts it into a bitmap and the vector_for_filter
+#' required for the filter functions. Returns a final_image with your applied filter which can
+#' be printed or saved. Uses both the filter function and the convert to bitmap function.
+#'
+#' Example:
+#' apply_any_color_filter(image_path, any_color = c(255, 0, 255), output_path = "any_color_image.jpg")
+#' Will generate an "final_image" object. change the "any_color = c(255, 0, 255)" RGB values to your values of choice.
+#'
+
+
 # Apply any color filter by stating R, B, G colors
 apply_any_color_filter <- function(image_path, any_color = c(255, 0, 255), blend_factor = 0.5, output_path = "any_color_image.jpg") {
   # Load the image

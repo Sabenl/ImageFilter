@@ -1,3 +1,11 @@
+#' Red, green and blue filter
+#'
+#' Uses a vector_for_filter generated from your image by the apply_RGB_color_filter function.
+#' Generates a raw RGB vector that will be processed into an image by the apply_RGB_color_filter function.
+#' this function is built into another function. No need to use by itself.
+#'
+
+
 # Filter to convert the image to red, blue, green
 color_filter <- function(vector_for_filter, color = "red") {
   for (i in seq(1, length(vector_for_filter) - 2, by = 3)) {

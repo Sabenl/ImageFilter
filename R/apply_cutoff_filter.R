@@ -1,3 +1,16 @@
+#' Applies the cutoff filter to a grayscale image
+#'
+#' Loads the image from your directory and converts it into a bitmap and the vector_for_filter
+#' required for the filter functions. Returns a final_image with your applied filter which can
+#' be printed or saved. Uses both the filter function and the convert to bitmap function.
+#'
+#' Example:
+#' apply_cutoff_filter(image_path, output_path = "cutoff_image.jpg")
+#' Will generate an "final_image" object.
+#'
+
+
+
 # Apply cutoff filter
 apply_cutoff_filter <- function(image_path, cutoff = 127, output_path = "cutoff_image.jpg") {
   # Load the image

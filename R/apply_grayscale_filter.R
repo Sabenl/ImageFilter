@@ -1,3 +1,14 @@
+#' Applies the grayscale filter to a grayscale image
+#'
+#' Loads the image from your directory and converts it into a bitmap and the vector_for_filter
+#' required for the filter functions. Returns a final_image with your applied filter which can
+#' be printed or saved. Uses both the filter function and the convert to bitmap function.
+#'
+#' Example:
+#' apply_grayscale_filter(image_path, output_path = "grayscale_image.jpg")
+#' Will generate an "final_image" object.
+#'
+
 # Apply grayscale filter
 apply_grayscale_filter <- function(image_path, output_path = "output_image.jpg") {
   # Load the image

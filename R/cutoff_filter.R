@@ -1,3 +1,11 @@
+#' Cutoff filter
+#'
+#' Uses a vector_for_filter generated from your image by the aapply_cutoff_filter function.
+#' Generates a raw cutoff vector that will be processed into an image by the apply_cutoff_filter function.
+#' this function is built into another function. No need to use by itself.
+#'
+
+
 # Cut off filter to combine with the grayscale filter
 grayscale_filter_cutoff <- function(vector_for_filter, cutoff = 127) {
   # Convert the raw vector to integers for calculations
