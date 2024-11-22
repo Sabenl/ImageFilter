@@ -5,14 +5,14 @@
 #' be printed or saved. Uses both the filter function and the convert to bitmap function.
 #'
 #' Example:
-#' apply_cutoff_filter(image_path, output_path = "cutoff_image.jpg")
+#' apply_cutoff_filter(image_path)
 #' Will generate an "final_image" object.
 #'
 
 
 
 # Apply cutoff filter
-apply_cutoff_filter <- function(image_path, cutoff = 127, output_path = "cutoff_image.jpg") {
+apply_cutoff_filter <- function(image_path, cutoff = 127) {
   # Load the image
   original_image <- image_read(image_path)
   # Convert the image to a bitmap and raw vector

@@ -5,12 +5,12 @@
 #' be printed or saved. Uses both the filter function and the convert to bitmap function.
 #'
 #' Example:
-#' apply_grayscale_filter(image_path, output_path = "grayscale_image.jpg")
+#' apply_grayscale_filter(image_path)
 #' Will generate an "final_image" object.
 #'
 
 # Apply grayscale filter
-apply_grayscale_filter <- function(image_path, output_path = "output_image.jpg") {
+apply_grayscale_filter <- function(image_path) {
   # Load the image
   original_image <- image_read(image_path)
   # Convert the image to a bitmap and raw vector

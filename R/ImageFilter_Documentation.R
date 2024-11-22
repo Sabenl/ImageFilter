@@ -20,7 +20,7 @@
 #' image_path <- "Path/To/Image/Test_image_1.jpg"
 #'
 #' ## Apply the filter
-#' gray_image <- apply_grayscale_filter(image_path, output_path = "gray_image.jpg")
+#' gray_image <- apply_grayscale_filter(image_path)
 #'
 #' ## View the final image
 #' print(gray_image)
