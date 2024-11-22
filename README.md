@@ -30,6 +30,7 @@ image_path <- "Test_image_1.jpg"
 
 
 
+  
 **Apply the chosen filter to your image**  
 
 **Grayscale filter**  
