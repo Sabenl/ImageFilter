@@ -26,7 +26,8 @@ library(magick)
 
 **Load the image**  
 **Assign the path to the image you want to use in the filter (replace with your file path or image name if in the working directory)**  
-image_path <- "Test_image_1.jpg"
+image_path <- "Test_image_1.jpg"  
+
 
 
 **Apply the chosen filter to your image**  
