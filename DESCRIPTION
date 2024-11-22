@@ -2,10 +2,12 @@ Package: ImageFilter
 Type: Package
 Title: Applies different image filters to provided images
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Sabina Enlund
+Maintainer: Sabina Enlund <sabina.enlund@ki.se>
+Description: A package that contains different image filters to apply to you image.
+    Contains four different filters; grayscale, cutoff, red/green/blue and chosen 
+    color based on RBG values. Provide the path to your image and the package will
+    enable you to apply the different filters and save the image to your directory.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
