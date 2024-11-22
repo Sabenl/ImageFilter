@@ -14,8 +14,8 @@ Contains:
 
 
 # How to run the package and exmaples 
-### Install packages
-install.packages("magick")
+**Install packages**
+install.packages("magick")  
 install.packages("ImageFilter") 
 
 ### Load libraries
