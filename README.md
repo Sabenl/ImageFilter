@@ -1,4 +1,4 @@
-################################# Package description #######################################
+# Package description
 A package that contains different image filters to apply to you image.
 Contains four different filters; grayscale, cutoff, red/green/blue and chosen 
 color based on RBG values. Provide the path to your image and the package will
@@ -13,25 +13,25 @@ Contains:
 - Function to convert the raw vector to a image # Or build if you open the R project file
 
 
-################################# How to run the package and exmaples #######################################
-#### Install packages
+# How to run the package and exmaples 
+## Install packages
 install.packages("magick")
 install.packages("ImageFilter") 
 
-#### Load libraries
+## Load libraries
 library(ImageFilter)
 library(magick)
 
-##### Load the image
-# Assign the path to the image you want to use in the filter (replace with your file path or image name if in the working directory)
+## Load the image
+### Assign the path to the image you want to use in the filter (replace with your file path or image name if in the working directory)
 image_path <- "Test_image_1.jpg"
 
-##### Apply the chosen filter to your image
-# Grayscale filter
+## Apply the chosen filter to your image
+### Grayscale filter
 gray_image <- apply_grayscale_filter(image_path, output_path = "gray_image.jpg")
-# View the final image
+## View the final image
 print(gray_image)
-# Save the final image as a JPEG, change path to the name and location desired.
+## Save the final image as a JPEG, change path to the name and location desired.
 image_write(gray_image, path = "gray_image.jpg", format = "jpeg")
 
 # Cutoff filter to the grayscale vector (requires the grayscale filter to have been run first)
