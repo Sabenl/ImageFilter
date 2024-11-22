@@ -13,6 +13,8 @@ Contains:
 - Function to convert the raw vector to a image # Or build if you open the R project file
 
 
+
+
 # How to run the package and exmaples 
 **Install packages**  
 install.packages("magick")  
