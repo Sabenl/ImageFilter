@@ -24,7 +24,7 @@ install.packages("ImageFilter")
 library(ImageFilter)  
 library(magick)
 
-<<<<<<< HEAD
+
 
 **Load the image** 
 
@@ -32,7 +32,7 @@ library(magick)
 image_path <- "Test_image_1.jpg"
 
 
-=======
+
 **Load the image**  
 **Assign the path to the image you want to use in the filter (replace with your file path or image name if in the working directory)**  
 image_path <- "Test_image_1.jpg"  
@@ -40,8 +40,6 @@ image_path <- "Test_image_1.jpg"
 
 
   
-  
->>>>>>> 328cf3e5d936c6b86dcafdbe737b8bbd74357c33
 **Apply the chosen filter to your image**  
 **Assign the filter function to an object to be able to print and save the image**
 
