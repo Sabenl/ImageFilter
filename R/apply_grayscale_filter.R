@@ -4,9 +4,15 @@
 #' required for the filter functions. Returns a final_image with your applied filter which can
 #' be printed or saved. Uses both the filter function and the convert to bitmap function.
 #'
-#' Example:
-#' apply_grayscale_filter(image_path)
-#' Will generate an "final_image" object.
+#' @param image_path # the path or name (if in WD) to the image you want to filter.
+#'
+#' @Example:
+#' image_path <- "Path/to/your/image_1.jpg"
+#' filtered_image <- apply_grayscale_filter(image_path)
+#' # Will generate an "filtered_image" object which can be printed and saved.
+#' print(filtered_image) # View the final image
+#' image_write(filtered_image, path = "my_image.jpg", format = "jpeg") # Save the final image as a JPEG.
+#'
 #'
 
 # Apply grayscale filter

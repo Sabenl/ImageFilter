@@ -22,11 +22,15 @@ install.packages("ImageFilter")
 library(ImageFilter)  
 library(magick)
 
-**Load the image**  
-**Assign the path to the image you want to use in the filter (replace with your file path or image name if in the working directory)**  
+
+**Load the image** 
+
+**Assign the path to the image you want to use in the filter to an object (replace with your file path or image name if in the working directory)**  
 image_path <- "Test_image_1.jpg"
 
+
 **Apply the chosen filter to your image**  
+**Assign the filter function to an object to be able to print and save the image**
 
 **Grayscale filter**  
 gray_image <- apply_grayscale_filter(image_path)   
@@ -35,8 +39,7 @@ print(gray_image)
 **Save the final image as a JPEG, change path to the name and location desired**  
 image_write(gray_image, path = "gray_image.jpg", format = "jpeg")
 
-**Cutoff filter to the grayscale vector (requires the grayscale filter to have been run first)**  
-cutoff_image <- apply_cutoff_filter(image_path)  
+**Cutoff filter to the grayscale vector (requires the grayscale filter to have been run first)**  cutoff_image <- apply_cutoff_filter(image_path)  
 **View the final image**  
 print(cutoff_image)  
 **Save the final image as a JPEG, change path to the name and location desired.**  

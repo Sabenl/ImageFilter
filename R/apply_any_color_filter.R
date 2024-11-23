@@ -4,9 +4,15 @@
 #' required for the filter functions. Returns a final_image with your applied filter which can
 #' be printed or saved. Uses both the filter function and the convert to bitmap function.
 #'
-#' Example:
-#' apply_any_color_filter(image_path, any_color = c(255, 0, 255))
-#' Will generate an "final_image" object. change the "any_color = c(255, 0, 255)" RGB values to your values of choice.
+#'@param image_path # the path or name (if in WD) to the image you want to filter.
+#'@param any_color = c(255, 0, 255) # Choose three RBG values (0-255) to customize the color
+#'
+#' @Example:
+#' image_path <- "Path/to/your/image_1.jpg"
+#' filtered_image <- apply_any_color_filter(image_path)
+#' # Will generate an "filtered_image" object which can be printed and saved.
+#' print(filtered_image) # View the final image
+#' image_write(filtered_image, path = "my_image.jpg", format = "jpeg") # Save the final image as a JPEG.
 #'
 
 

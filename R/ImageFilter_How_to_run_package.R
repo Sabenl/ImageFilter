@@ -5,9 +5,11 @@
 #'
 #' ##### Load the image
 #' # Assign the path to the image you want to use in the filter (replace with your file path)
+#' to an object:
 #' image_path <- "Path/to/your/image_1.jpg"
 #'
 #' ##### Apply the chosen filter to your image
+#' # Assign the filter function to an object to be able to visualize and save the filtered image.
 #' # Grayscale filter
 #' gray_image <- apply_grayscale_filter(image_path)
 #' # View the final image

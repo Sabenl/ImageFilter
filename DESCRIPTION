@@ -8,7 +8,7 @@ Description: A package that contains different image filters to apply to you ima
     Contains four different filters; grayscale, cutoff, red/green/blue and chosen 
     color based on RBG values. Provide the path to your image and the package will
     enable you to apply the different filters and save the image to your directory.
-    You need to load your image path to the object "image_path" and loaf both the 
+    You need to load your image path to the object "image_path" and load both the 
     magick and ImageFilter library. Then you can use the provided "apply_filter"
     functions to generate a filtered image which can then be saved. 
 License: MIT + file LICENSE
