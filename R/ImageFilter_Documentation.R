@@ -4,7 +4,7 @@
 #' including grayscale, cutoff, and two color-based filters.
 #'
 #' @section Main Functions:
-#' - `apply_filter`: Apply a specified filter to an image file and save the output.
+#' Apply a specified filter to an image file and save the output.
 #' - `apply_grayscale_filter`: Convert image data to grayscale.
 #' - `apply_cutoff_filter`: Apply a cutoff filter to an image.
 #' - `apply_RGB_color_filter`: Convert an image to red, green, or blue tones.
