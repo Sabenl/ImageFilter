@@ -13,8 +13,6 @@ Contains:
 - Function to convert the raw vector to a image # Or build if you open the R project file
 
 
-
-
 # How to run the package and examples 
 **Install packages**  
 install.packages("magick")  
@@ -25,15 +23,11 @@ library(ImageFilter)
 library(magick)
 
 
-
-
 **Load the image**  
 **Assign the path to the image you want to use in the filter (replace with your file path or image name if in the working directory)**  
 image_path <- "Test_image_1.jpg"  
 
 
-
-  
 **Apply the chosen filter to your image**  
 **Assign the filter function to an object to be able to print and save the image**
 
@@ -50,7 +44,7 @@ print(cutoff_image)
 **Save the final image as a JPEG, change path to the name and location desired.**  
 image_write(cutoff_image, path = "cutoff_image.jpg", format = "jpeg")
 
-**Red, green or blue filter. Insert color "red", "blue" or "green" and change the output_path name.**  
+**Red, green or blue filter. Insert color "red", "blue" or "green" and change the output_path name.** 
 color_image <- apply_color_filter(image_path, color = "red")  
 **View the final image**  
 print(color_image) 
