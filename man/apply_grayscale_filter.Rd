@@ -7,7 +7,7 @@
 apply_grayscale_filter(image_path)
 }
 \arguments{
-\item{image_path}{# the path or name (if in WD) to the image you want to filter.}
+\item{image_path}{# an object to which you have assigned the path or name (if in WD) to the image you want to filter.}
 }
 \value{
 a filtered image converted back to a bitmap

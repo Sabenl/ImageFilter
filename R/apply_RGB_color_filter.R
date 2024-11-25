@@ -4,7 +4,7 @@
 #' required for the filter functions. Returns a final_image with your applied filter which can
 #' be printed or saved. Uses both the filter function and the convert to bitmap function.
 #'
-#'@param image_path # the path or name (if in WD) to the image you want to filter.
+#'@param image_path # an object to which you have assigned the path or name (if in WD) to the image you want to filter.
 #'@param color = "red" # the color (red, blue or green) you want to add to your image.
 #'@return a filtered image converted back to a bitmap
 #'

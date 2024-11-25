@@ -11,7 +11,7 @@ apply_any_color_filter(
 )
 }
 \arguments{
-\item{image_path}{# the path or name (if in WD) to the image you want to filter.}
+\item{image_path}{# an object to which you have assigned the path or name (if in WD) to the image you want to filter.}
 
 \item{any_color}{= c(255, 0, 255) # Choose three RBG values (0-255) to customize the color}
 }

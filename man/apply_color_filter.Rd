@@ -7,7 +7,7 @@
 apply_color_filter(image_path, color = "red")
 }
 \arguments{
-\item{image_path}{# the path or name (if in WD) to the image you want to filter.}
+\item{image_path}{# an object to which you have assigned the path or name (if in WD) to the image you want to filter.}
 
 \item{color}{= "red" # the color (red, blue or green) you want to add to your image.}
 }
