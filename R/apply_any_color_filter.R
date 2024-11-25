@@ -6,8 +6,12 @@
 #'
 #'@param image_path # the path or name (if in WD) to the image you want to filter.
 #'@param any_color = c(255, 0, 255) # Choose three RBG values (0-255) to customize the color
+#'@return a filtered image converted back to a bitmap
 #'
-#' @Example:
+#' @examples
+#' # example code
+#'
+#' library(magick)
 #' image_path <- "Path/to/your/image_1.jpg"
 #' filtered_image <- apply_any_color_filter(image_path)
 #' # Will generate an "filtered_image" object which can be printed and saved.

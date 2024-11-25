@@ -5,8 +5,12 @@
 #' be printed or saved. Uses both the filter function and the convert to bitmap function.
 #'
 #' @param image_path # the path or name (if in WD) to the image you want to filter.
+#'@return a filtered image converted back to a bitmap
 #'
-#' @Example:
+#' @examples
+#' # example code
+#'
+#' library(magick)
 #' image_path <- "Path/to/your/image_1.jpg"
 #' filtered_image <- apply_grayscale_filter(image_path)
 #' # Will generate an "filtered_image" object which can be printed and saved.
